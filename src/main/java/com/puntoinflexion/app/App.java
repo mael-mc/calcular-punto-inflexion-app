@@ -1,8 +1,11 @@
 package com.puntoinflexion.app;
 
+import com.puntoinflexion.vista.VentanaPrincipal;
+
 public class App {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
+        ventanaPrincipal.setVisible(true);
     }
 }

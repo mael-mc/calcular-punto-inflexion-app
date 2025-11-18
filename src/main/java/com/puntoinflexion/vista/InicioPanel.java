@@ -34,7 +34,10 @@ public class InicioPanel extends javax.swing.JPanel {
         BGjPanel.setBackground(new java.awt.Color(247, 251, 252));
         BGjPanel.setPreferredSize(new java.awt.Dimension(1366, 588));
         BGjPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        BGjPanel.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 60, 350, 70));
+
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 48)); // NOI18N
+        jLabel1.setText("Bienvenido a InflexPoint");
+        BGjPanel.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, 560, 70));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);

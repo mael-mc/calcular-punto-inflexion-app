@@ -40,6 +40,19 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
+        jPanel3 = new javax.swing.JPanel();
+        BGjPanel1 = new javax.swing.JPanel();
+        jLabel8 = new javax.swing.JLabel();
+        BGTEXTjPanel = new javax.swing.JPanel();
+        UNAjLabel10 = new javax.swing.JLabel();
+        FUNCIOESjLabel7 = new javax.swing.JLabel();
+        YPRECISAjLabel11 = new javax.swing.JLabel();
+        PUNTOSjLabel9 = new javax.swing.JLabel();
+        ADEMASjLabel12 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        BGToolBarjPanel1 = new javax.swing.JPanel();
+        TitleAppjLabel1 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -130,6 +143,65 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
         BGjPanel.add(BGBreadCrumjPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, -1, -1));
 
+        jPanel3.setPreferredSize(new java.awt.Dimension(1366, 598));
+        jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        BGjPanel1.setBackground(new java.awt.Color(247, 251, 252));
+        BGjPanel1.setPreferredSize(new java.awt.Dimension(1366, 588));
+        BGjPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        jLabel8.setText("BIENVENIDO A INFLEXPOINT");
+        BGjPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 670, 70));
+
+        BGTEXTjPanel.setBackground(new java.awt.Color(247, 251, 252));
+        BGTEXTjPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        UNAjLabel10.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        UNAjLabel10.setText("Una herramienta diseñada para analizar");
+        BGTEXTjPanel.add(UNAjLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 520, 50));
+
+        FUNCIOESjLabel7.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        FUNCIOESjLabel7.setText("funciones matemáticas de forma rápida");
+        BGTEXTjPanel.add(FUNCIOESjLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 520, 50));
+
+        YPRECISAjLabel11.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        YPRECISAjLabel11.setText("y  precisa. Aquí podrás calcular derivadas,");
+        BGTEXTjPanel.add(YPRECISAjLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 100, 520, 50));
+
+        PUNTOSjLabel9.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        PUNTOSjLabel9.setText("puntos críticos y puntos de inflexión,");
+        BGTEXTjPanel.add(PUNTOSjLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 520, 50));
+
+        ADEMASjLabel12.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        ADEMASjLabel12.setText("además de visualizar la gráfica de la función");
+        BGTEXTjPanel.add(ADEMASjLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 200, 520, 40));
+
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jLabel6.setText("para comprender mejor su comportamiento.");
+        BGTEXTjPanel.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 240, 1010, 50));
+
+        BGjPanel1.add(BGTEXTjPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 130, 520, 330));
+
+        BGToolBarjPanel1.setBackground(new java.awt.Color(42, 157, 143));
+        BGToolBarjPanel1.setPreferredSize(new java.awt.Dimension(1366, 70));
+        BGToolBarjPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        TitleAppjLabel1.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
+        TitleAppjLabel1.setForeground(new java.awt.Color(247, 251, 252));
+        TitleAppjLabel1.setText("EXPLORA EL MENÚ SUPRIOR PARA COMENZAR");
+        TitleAppjLabel1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        BGToolBarjPanel1.add(TitleAppjLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, -1, 60));
+
+        BGjPanel1.add(BGToolBarjPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 490, 440, 60));
+
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/Texto.png"))); // NOI18N
+        BGjPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 180, 530, 230));
+
+        jPanel3.add(BGjPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        BGjPanel.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 108, -1, -1));
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -153,17 +225,30 @@ public class VentanaPrincipal extends javax.swing.JFrame {
      */
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel ADEMASjLabel12;
     private javax.swing.JPanel BGBreadCrumjPanel;
+    private javax.swing.JPanel BGTEXTjPanel;
     private javax.swing.JPanel BGToolBarjPanel;
+    private javax.swing.JPanel BGToolBarjPanel1;
     private javax.swing.JPanel BGjPanel;
+    private javax.swing.JPanel BGjPanel1;
     private javax.swing.JTextField BarBuscarjTextField;
+    private javax.swing.JLabel FUNCIOESjLabel7;
+    private javax.swing.JLabel PUNTOSjLabel9;
     private javax.swing.JLabel TitleAppjLabel;
+    private javax.swing.JLabel TitleAppjLabel1;
+    private javax.swing.JLabel UNAjLabel10;
+    private javax.swing.JLabel YPRECISAjLabel11;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
     // End of variables declaration//GEN-END:variables
 }

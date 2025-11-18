@@ -28,26 +28,142 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        BGjPanel = new javax.swing.JPanel();
+        BGToolBarjPanel = new javax.swing.JPanel();
+        TitleAppjLabel = new javax.swing.JLabel();
+        BarBuscarjTextField = new javax.swing.JTextField();
+        jPanel1 = new javax.swing.JPanel();
+        jPanel2 = new javax.swing.JPanel();
+        BGBreadCrumjPanel = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        BGjPanel.setBackground(new java.awt.Color(247, 251, 252));
+        BGjPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        BGToolBarjPanel.setBackground(new java.awt.Color(42, 157, 143));
+        BGToolBarjPanel.setPreferredSize(new java.awt.Dimension(1366, 70));
+        BGToolBarjPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        TitleAppjLabel.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        TitleAppjLabel.setForeground(new java.awt.Color(247, 251, 252));
+        TitleAppjLabel.setText("INFLEX POINT");
+        TitleAppjLabel.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        BGToolBarjPanel.add(TitleAppjLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 0, -1, 70));
+
+        BarBuscarjTextField.setBackground(new java.awt.Color(247, 251, 252));
+        BarBuscarjTextField.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
+        BarBuscarjTextField.setText("Buscar");
+        BarBuscarjTextField.setPreferredSize(new java.awt.Dimension(300, 30));
+        BarBuscarjTextField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BarBuscarjTextFieldActionPerformed(evt);
+            }
+        });
+        BGToolBarjPanel.add(BarBuscarjTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 20, -1, -1));
+
+        jPanel1.setPreferredSize(new java.awt.Dimension(40, 40));
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        BGToolBarjPanel.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 17, -1, -1));
+
+        jPanel2.setPreferredSize(new java.awt.Dimension(40, 40));
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 40, Short.MAX_VALUE)
+        );
+
+        BGToolBarjPanel.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1290, 17, -1, -1));
+
+        BGjPanel.add(BGToolBarjPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        BGBreadCrumjPanel.setBackground(new java.awt.Color(38, 70, 83));
+        BGBreadCrumjPanel.setPreferredSize(new java.awt.Dimension(1366, 40));
+        BGBreadCrumjPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(242, 242, 242));
+        jLabel1.setText("AYUDA");
+        BGBreadCrumjPanel.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 0, -1, 40));
+
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(242, 242, 242));
+        jLabel2.setText("INICIO");
+        BGBreadCrumjPanel.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 0, -1, 40));
+
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(242, 242, 242));
+        jLabel3.setText("CALCULAR");
+        BGBreadCrumjPanel.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 0, -1, 40));
+
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(242, 242, 242));
+        jLabel4.setText("GRÁFICOS");
+        BGBreadCrumjPanel.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 0, -1, 40));
+
+        jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 20)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(242, 242, 242));
+        jLabel5.setText("CONFIGURACIÓN");
+        BGBreadCrumjPanel.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 0, -1, 40));
+
+        BGjPanel.add(BGBreadCrumjPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, -1, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1000, Short.MAX_VALUE)
+            .addComponent(BGjPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 650, Short.MAX_VALUE)
+            .addComponent(BGjPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 698, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void BarBuscarjTextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BarBuscarjTextFieldActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BarBuscarjTextFieldActionPerformed
 
     /**
      * @param args the command line arguments
      */
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel BGBreadCrumjPanel;
+    private javax.swing.JPanel BGToolBarjPanel;
+    private javax.swing.JPanel BGjPanel;
+    private javax.swing.JTextField BarBuscarjTextField;
+    private javax.swing.JLabel TitleAppjLabel;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     // End of variables declaration//GEN-END:variables
 }
